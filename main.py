@@ -1,8 +1,8 @@
 import os
 import time
-from download import tdownload
-from merge import start_merge
-from slnm import browsing, sel_search, user_control
+from others.download import tdownload
+from others.merge import start_merge
+from others.slnm import browsing, sel_search, user_control
 
 
 def getvideolinks(links):

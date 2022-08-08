@@ -21,7 +21,7 @@ def start_merge(extention, delete=True):
 
 
 def delete_except_merge(name, extention):
-    for file in listdir("media"):
+    for file in listdir("../media"):
         if file.endswith(f".{extention}"):
             if name not in file:
                 os.remove(file)
